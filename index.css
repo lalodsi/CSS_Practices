@@ -1,0 +1,186 @@
+/*
+
+Color azul link: rgb(0, 129, 189);
+*/
+
+@font-face{
+    font-family: "apple";
+    src: url("./Fonts/SFProDisplay.ttf");
+}
+body{
+    margin: 0;
+    font-family: "apple";
+}
+.menu-header{
+    background-color: #1d1d1f;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 0 120px 0 120px;
+    margin: 0;
+}
+.menu-element{
+    color: #f5f5f7;
+    list-style: none;
+    height: 34px;
+    width: 34px;
+    margin: inherit;
+    margin-top: 15px;
+}
+.menu-element.home{
+    background-position-y: -10px;
+    background-position-x: center;
+    background-image: url("./Images/apple-logo.svg");
+    background-size: 16px 44px;
+    background-repeat: no-repeat;
+}
+.menu-element.search{
+    background-position-y: -10px;
+    background-position-x: center;
+    background-image: url("./Images/search-icon.svg");
+    background-size: 18px 84px;
+    background-repeat: no-repeat;
+}
+.menu-element.store{
+    background-position-y: -10px;
+    background-position-x: center;
+    background-image: url("./Images/store.svg");
+    background-size: 16px 44px;
+    background-repeat: no-repeat;
+}
+.advice{
+    background-color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+}
+.advice a{
+    text-decoration: none;
+    color: rgb(0, 129, 189);
+}
+.content-box{
+    height: 624px;
+    width: 100%;
+}
+.content-box.ipad-air{
+    height: auto;
+    width: 100%;
+    background-color: rgb(251, 251, 253);
+}
+#imagen-iphone-12{
+    background-image: url('./Images/iphone_12.jpg');
+    /* background-size: 210% 624px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imagen-iphone-12-Pro{
+    background-image: url('./Images/iphone_12_pro.jpg');
+    /* background-size: 210% 624px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: ivory;
+}
+#imagen-ipad-air{
+    background-color: rgb(251, 251, 253);
+    background-image: url('./Images/ipad_air.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position-y: 250px; */
+    height: 400px;
+    margin: 0 0 auto 0;
+}
+.contenido{
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenido h2{
+    margin: 0;
+    font-size: 52px;
+}
+.contenido h3{
+    margin: 10px 0 0 0;
+    font-size: 28px;
+}
+.links{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.links a{
+    font-size: 21px;
+    text-decoration: none;
+    color: rgb(0, 129, 189);
+}
+.products-small{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.small{
+    width: 48%;
+    margin-top: 25px;
+}
+#section-watch-series-se,
+#section-apple-one{
+    background-color: rgb(251, 251, 253);
+}
+#imagen-watch-series-6,
+#imagen-macbook-air,
+#logo-watch-series-6,
+#imagen-watch-series-SE,
+#logo-watch-series-SE,
+#logo-apple-one,
+#imagen-apple-one{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imagen-watch-series-6{
+    color: ivory;
+    background-image: url("./Images/watch-series-6.jpg");
+}
+#logo-watch-series-6{
+    background-image: url("./Images/watch-series-6-logo.jpg");
+    height: 57px;
+    width: 148px;
+}
+#imagen-macbook-air{
+    background-image: url("./Images/macbook-air.jpg");
+    color: ivory;
+}
+#imagen-watch-series-SE{
+    background-image: url("./Images/watch-se.jpg");
+    background-size: contain;
+    width: cover;
+    height: 400px;
+}
+#logo-watch-series-SE{
+    background-image: url("./Images/watch-se-logo.png");
+    height: 57px;
+    width: 148px;
+}
+#logo-apple-one{
+    background-image: url("./Images/apple-one-logo.png");
+    background-size: contain;
+    height: 57px;
+    width: 148px;
+}
+#imagen-apple-one{
+    background-image: url("./Images/apple-one.jpg");
+    background-size: contain;
+    width: cover;
+    height: 400px;
+}
