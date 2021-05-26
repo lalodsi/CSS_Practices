@@ -212,7 +212,6 @@ footer{
     margin: 0 0 9.6px;
 }
 .columnas-footer .columna .head{
-    /* color: lawngreen; */
     font-weight: bold;
 }
 .columnas-footer .columna .elemento a{
@@ -221,4 +220,12 @@ footer{
 }
 .columnas-footer .columna .elemento a:hover{
     text-decoration: underline;
+}
+.columnas-footer .columna ul{
+    margin-left: 0;
+    padding: 0;
+}
+.footer-advice{
+    border-bottom: 1px;
+    border-color: #86868b;
 }
