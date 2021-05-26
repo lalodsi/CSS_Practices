@@ -229,3 +229,28 @@ footer{
     border-bottom: 1px;
     border-color: #86868b;
 }
+.footer-advice a{
+    color: rgb(0, 129, 189);
+    text-decoration: none;
+}
+.footer-advice a:hover{
+    text-decoration: underline;
+}
+.inline{
+    display: inline-block;
+}
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+    color: inherit;
+}
+.inline a, .footer-last a, .footer-last .inline a{
+    color: inherit;
+    text-decoration: none;
+}
+.inline a, .footer-last a:hover{
+    text-decoration: underline;
+}
+.footer-last{
+    color: #86868b;
+}
